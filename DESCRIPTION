@@ -1,0 +1,9 @@
+Package: homebrewr
+Type: Package
+Title: Install software using Homebrew
+Version: 0.1
+Date: 2015-03-25
+Author: Shaun Jackman
+Maintainer: Shaun Jackman <sjackman@gmail.com>
+Description: Install software on Mac OS and Linux systems using Homebrew and Linuxbrew.
+License: MIT + file LICENSE
