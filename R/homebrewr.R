@@ -45,3 +45,9 @@ brew_list <- function(formula = NULL)
 #' @return A character vector of matching formulae.
 brew_search <- function(text = NULL)
 	system2("brew", c("search", text), stdout = TRUE)
+
+#' Return formulae that have an updated version available.
+#' 
+#' @return A character vector of outdated formulae.
+brew_outdated <- function()
+	system2("brew", "outdated", stdout = TRUE)
