@@ -38,6 +38,14 @@ brew_upgrade <- function(formula = NULL)
 brew_list <- function(formula = NULL)
 	system2("brew", c("list", formula), stdout = TRUE)
 
+#' List installed formulae and their versions.
+#'
+#' @param formula The name of one or more formulae.
+#' If formula is NULL, return all installed formulae.
+#' @return A character vector of installed formulae.
+brew_list_versions_raw <- function(formula = NULL)
+	system2("brew", c("list", "--versions", formula), stdout = TRUE)
+
 #' Search for formulae whose names contain the substring text.
 #'
 #' @param text The substring for which to search.
