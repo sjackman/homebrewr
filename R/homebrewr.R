@@ -1,3 +1,12 @@
+#' homebrewr: Install software using Homebrew
+#'
+#' Install software on Mac OS and Linux systems using Homebrew and Linuxbrew.
+#'
+#' @docType package
+#' @name homebrewr
+#' @author Shaun Jackman \email{sjackman@@gmail.com}
+NULL
+
 #' Install formula.
 #'
 #' @param formula The name of one or more formulae.
