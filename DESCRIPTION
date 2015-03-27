@@ -8,3 +8,4 @@ Maintainer: Shaun Jackman <sjackman@gmail.com>
 Description: Install software on Mac OS and Linux systems using Homebrew and Linuxbrew.
 License: MIT + file LICENSE
 Imports: dplyr, magrittr, tidyr
+SystemRequirements: ruby
