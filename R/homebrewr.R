@@ -7,6 +7,21 @@
 #' @author Shaun Jackman \email{sjackman@@gmail.com}
 NULL
 
+#' Install Homebrew.
+#' 
+#' install_homebrew does not work in RStudio. It hangs indefinitely waiting for input.
+#' See http://brew.sh/ for more installation options.
+#' @export
+install_homebrew <- function() {
+	file <- tempfile()
+	downloader::download(
+		"https://raw.githubusercontent.com/Homebrew/install/master/install",
+		file)
+	x <- system2("ruby", file)
+	file.remove(file)
+	invisible(x)
+}
+
 #' Install formula.
 #'
 #' @param formula The name of one or more formulae.
