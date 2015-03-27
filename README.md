@@ -11,6 +11,10 @@ Installation
 devtools::install_github("sjackman/homebrewr")
 ```
 
+To install Homebrew on Mac OS see http://brew.sh/
+
+To install Homebrew on Linux see http://brew.sh/linuxbrew/
+
 Examples
 ================================================================================
 

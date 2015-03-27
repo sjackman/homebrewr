@@ -2,6 +2,10 @@
 #'
 #' Install software on Mac OS and Linux systems using Homebrew and Linuxbrew.
 #'
+#' To install Homebrew on Mac OS see \url{http://brew.sh/}
+#'
+#' To install Homebrew on Linux see \url{http://brew.sh/linuxbrew/}
+#'
 #' @docType package
 #' @name homebrewr
 #' @author Shaun Jackman \email{sjackman@@gmail.com}
